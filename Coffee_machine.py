@@ -72,7 +72,6 @@ class CoffeeMachine:
                 print(f"Command '{buyer_action}' not found")
 
 
-# Initial state of the coffee machine
 coffee_machine = CoffeeMachine(400, 540, 120, 9, 550)
 # ask the client what he wants to do
 coffee_machine.action()
